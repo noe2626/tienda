@@ -14,16 +14,10 @@ export class ListarProductoComponent implements OnInit {
   constructor(private api:ProductosService) { }
 
   ngOnInit(): void {
-    this.api.getProducts().subscribe(data =>{
+    /*this.api.getProducts().subscribe(data =>{
       console.log(data)
-    })
+    })*/
   }
 
-  /*listar(){
-
-    this.servicio.getProductos().subscribe(data=>{
-      console.log(data)
-    })
-  }*/
 
 }
